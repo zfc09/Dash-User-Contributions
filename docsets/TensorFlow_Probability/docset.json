@@ -1,34 +1,16 @@
 {
     "name": "TensorFlow Probability",
-    "package": "TensorFlow Probability",
-    "index": "index.html",
+    "version": "0.11.1",
+    "archive": "TensorFlow_Probability.tgz"
     "author": {
         "name": "Fucen Zeng",
         "link": "https://github.com/zfc09"
     },
-    "selectors": {
-        "h1:first-of-type": [
-            {
-                "type": "Module",
-                "requiretext": "Module: ",
-                "regexp": "Module: ",
-                "replacement": ""
-            },
-            {
-                "type": "Function"
-            }
-        ],
-        "h3": {
-            "type": "Method",
-            "attr": "id"
-        },
-        "title": "TensorFlow Probability"
-    },
-    "ignore": [
-        "Aliases:", "", "References", "Arguments", "Returns"
-    ],
-    "icon32x32": "icon@2x.png",
-    "icon16x16": "icon.png",
-    "allowJS": false,
-    "ExternalURL": "https://www.tensorflow.org/probability/"
+    "aliases": ["tfp", "TensorFlow Probability"],
+    "specific_versions": [
+        {
+            "version": "0.11.1",
+            "archive": "versions/0.11.1/TensorFlow_Probability.tgz",
+        }
+    ]
 }
